@@ -18,7 +18,7 @@ I'm studying at
 
 my Team blog: 
 <a target="_blank" href="http://blog.csdn.net/loser_light"> LOSER_LIGHT </a>
-have some articles about ACM.
+,which has some articles about ACM.
 
 <p>
 
