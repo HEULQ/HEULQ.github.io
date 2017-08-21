@@ -15,8 +15,7 @@ comment:
     # cloudTie: leopard
 
 # Social
-social:
-    weibo: loserLS 
+social: 
     github: HEULQ
     # twitter: 
     mail: 18846178039@163.com
@@ -31,17 +30,6 @@ baidu:
 ga:
     id: UA-84134159-3   
     host: auto  
-
-
-# 《----------------- 上面的信息修改成你自己的 ---------------------------》
-#
-#
-#  _post/ 下的文章更换成你自己的文章
-#  帮忙star一下，感谢~😆 地址： https://github.com/leopardpan/leopardpan.github.io
-#
-#
-# 《--------------- 下面的信息可以自行选择是否修改 ------------------------》
-
 
 permalink: /:year/:month/:title/
 # Format
