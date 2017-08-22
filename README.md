@@ -4,7 +4,7 @@
 
 #### How to get the template?
 
-$ git clone https://github.com/leopardpan/leopardpan.github.io.git
+> $ git clone https://github.com/leopardpan/leopardpan.github.io.git
 
 or [Download](https://github.com/leopardpan/leopardpan.github.io/archive/master.zip)   
  
