@@ -74,6 +74,11 @@ $$
 
 
 代码如下：
+
+$$
+\sum_{g=0}^{n*m}A_{g}*(g+1)=\sum_{g=0}^{min(n,m)}(A_{g}*g)+K^{n*m}=n*m*\sum_{i=2}^{K}((i-1)^{n + m - 2} * K^{n*m-n-m+1})
+$$
+
 ```c++
 #include<stdio.h>
 #include<memory.h>
