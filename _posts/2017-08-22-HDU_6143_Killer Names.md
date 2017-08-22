@@ -57,7 +57,7 @@ Output the answer  mod 109+7
 两个长度为 n 的字符串（first name & last name），给你 m 个字母。在 first name 和 last name 中没有重复的字母，字母可重复使用，问有多少种可能情况。
 我的思路是先选一些字母给 first name，再在剩下的字母中选一些给 last name，这样一共有
 
-$\bigl(\sum_{i=1}^{min(m-1,n)}C_m^i\bigr)*\bigl(\sum_{j=1}^{min(m-i,n)}C_{m-i}^j\bigr)$ 
+$$\bigl(\sum_{i=1}^{min(m-1,n)}C_m^i\bigr)*\bigl(\sum_{j=1}^{min(m-i,n)}C_{m-i}^j\bigr)$$
 
 种分配方法。
 接下来要考虑的问题就是 x 个字母怎样组成一个长度为 n 的字符串。
@@ -65,6 +65,7 @@ $\bigl(\sum_{i=1}^{min(m-1,n)}C_m^i\bigr)*\bigl(\sum_{j=1}^{min(m-i,n)}C_{m-i}^j
 
 种方案。
 整理一下：
+
 $$\sum_{i=1}^{min(m-1,n)}\Bigl((C_m^i*S_2(n,i)*i!)*(\sum_{j=1}^{min(m-i,n)}C_{m-i}^j*S_2(n,j)*j!)\Bigr)$$
 
 
