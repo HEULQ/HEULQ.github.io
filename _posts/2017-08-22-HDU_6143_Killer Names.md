@@ -55,11 +55,19 @@ Output the answer  mod 109+7
 
 **题意：**
 两个长度为 n 的字符串（first name & last name），给你 m 个字母。在 first name 和 last name 中没有重复的字母，字母可重复使用，问有多少种可能情况。
-我的思路是先选一些字母给 first name，再在剩下的字母中选一些给 last name，这样一共有 $\bigl(\sum_{i=1}^{min(m-1,n)}C_m^i\bigr)*\bigl(\sum_{j=1}^{min(m-i,n)}C_{m-i}^j\bigr)$ 种分配方法。
+我的思路是先选一些字母给 first name，再在剩下的字母中选一些给 last name，这样一共有
+
+$\bigl(\sum_{i=1}^{min(m-1,n)}C_m^i\bigr)*\bigl(\sum_{j=1}^{min(m-i,n)}C_{m-i}^j\bigr)$ 
+
+种分配方法。
 接下来要考虑的问题就是 x 个字母怎样组成一个长度为 n 的字符串。
-我想到的是第二类斯特林数，把长度为 n 的字符串想成 n 个格子，把这些格子分给 x 个字母，再对 x 个字母进行全排列。这样得到的就是 $S_2(n,x)*x!$ 种方案。
+我想到的是第二类斯特林数，把长度为 n 的字符串想成 n 个格子，把这些格子分给 x 个字母，再对 x 个字母进行全排列。这样得到的就是 $S_2(n,x)*x!$ 
+
+种方案。
 整理一下：
 $$\sum_{i=1}^{min(m-1,n)}\Bigl((C_m^i*S_2(n,i)*i!)*(\sum_{j=1}^{min(m-i,n)}C_{m-i}^j*S_2(n,j)*j!)\Bigr)$$
+
+
 代码如下：
 ```c++
 #include<stdio.h>
@@ -134,7 +142,9 @@ int main()
 
 **多校的题解：**
 利用容斥原理计数. 设长度为 nn, 恰好用了 xx 个字符的方案数为 f(n)f(n), 那么
+
 $$f(n) = \binom{m}{x} x^n - \sum_{1 \le i \lt n} \binom{n}{i} f(i)$$
+
 好……好厉害的公式……
 
 ----------
