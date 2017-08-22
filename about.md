@@ -22,6 +22,15 @@ my Team blog:
 
 <p>
 
+<h3> Contact Information </h3>
+
+<p>
+
+QQ:649286091
+E-mail:18846178039@163.com
+
+<p>
+
 <h3> Friends </h3> 
 
 <p>
