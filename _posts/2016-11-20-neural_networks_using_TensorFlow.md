@@ -251,7 +251,7 @@ pylab.show()
 
 ```
 
-![](https://www.analyticsvidhya.com/wp-content/uploads/2016/10/3.png)       
+![](http://poj.org/images/2411_2.jpg)       
 
 上面的图像表示为 numpy 数组，如下所示
 
