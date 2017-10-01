@@ -20,6 +20,7 @@ social:
     github: HEULQ
     # twitter: 
     mail: 18846178039@163.com
+    qq：649286091
 
 # 百度统计 
 # 使用博客模板请去掉或者更换 id 
@@ -56,5 +57,4 @@ nav:
 gems: [jekyll-paginate,jekyll-sitemap]
 paginate: 20
 paginate_path: "page/:num/"
-
 
