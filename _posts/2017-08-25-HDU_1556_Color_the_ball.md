@@ -48,11 +48,11 @@ tag: HDU
 
 3 2 1
 
-### 题意：
+### 题意
 
 从1到N，每次给某区间涂色，求最后每个点涂色次数。 
 
-### AC代码：
+### AC代码
 ``` c++
 #include <stdio.h>
 #include <string.h>
