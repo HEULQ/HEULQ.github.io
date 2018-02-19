@@ -45,11 +45,11 @@ For each case, output the minimum inversion number on a single line.
 
 16
 
-### 题意：
+### 题意
 
 一个由0..n-1组成的序列，每次可以把队首的元素移到队尾，求形成的n个序列中最小逆序对数目 
 
-### AC代码：
+### AC代码
 ``` c++
 #include <stdio.h>
 #include <string.h>
