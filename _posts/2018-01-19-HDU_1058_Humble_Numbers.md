@@ -81,11 +81,11 @@ The 1000th humble number is 385875.
 
 The 5842nd humble number is 2000000000.
 
-### 题意：
+### 题意
 
 找出第N个Humble Number，定义是除1外所有仅有2,3,5,7因子的数。
 
-### AC代码：
+### AC代码
 ``` c++
 #include <stdio.h>
 #include <string.h>
