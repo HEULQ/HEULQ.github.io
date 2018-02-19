@@ -1,33 +1,5 @@
 <section>
 
-            <div class="content-play">
-              <p><a href="javascript:void(0)" onclick="dashangToggle()" class="dashang" title="´òÉÍ£¬Ö§³ÖÒ»ÏÂ">´òÉÍÒ»¸ößÂ</a></p>
-              <div class="hide_box-play"></div>
-              <div class="shang_box-play">
-                <a class="shang_close-play" href="javascript:void(0)" onclick="dashangToggle()" title="¹Ø±Õ"><img src="/images/payimg/close.jpg" alt="È¡Ïû" /></a>
-                <div class="shang_tit-play">
-                  <p>¸ÐÐ»ÄúµÄÖ§³Ö£¬ÎÒ»á¼ÌÐøÅ¬Á¦µÄ!</p>
-                </div>
-                <div class="shang_payimg">
-                    <img src="/images/payimg/alipayimg.jpg" alt="É¨ÂëÖ§³Ö" title="É¨Ò»É¨" />
-                </div>
-              <div class="shang_payimg">    
-                    <img src="/images/payimg/weipayimg.jpg" alt="É¨ÂëÖ§³Ö" title="É¨Ò»É¨" />
-                </div>
-                <div class="pay_explain">É¨Âë´òÉÍ£¬ÄãËµ¶àÉÙ¾Í¶àÉÙ</div>
-                <div class="shang_payselect">
-                  <div class="pay_item checked" data-id="alipay">
-                    <span class="pay_logo"><img src="/images/payimg/alipay.jpg" alt="Ö§¸¶±¦" /></span>
-                  </div>
-                  <div class="pay_item" data-id="weipay">
-                    <span class="pay_logo"><img src="/images/payimg/wechat.jpg" alt="Î¢ÐÅ" /></span>
-                  </div>
-                </div>
-                <div class="shang_info-play">
-                  <p>´ò¿ª<span id="shang_pay_txt">Ö§¸¶±¦</span>É¨Ò»É¨£¬¼´¿É½øÐÐÉ¨Âë´òÉÍÅ¶</p>
-                </div>
-              </div>
-            </div>
             <script type="text/javascript">
             function dashangToggle(){
               $(".hide_box-play").fadeToggle();
@@ -62,13 +34,13 @@
        <ul class="pager">
         {% if page.previous.url %}
         <li class="previous">
-            <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">previous post£º  <span>{{page.previous.title}}</span>
+            <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">previous postï¼š  <span>{{page.previous.title}}</span>
             </a>
         </li>
         {% endif %}
         {% if page.next.url %}
         <li class="next">
-            <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">next post£º  <span>{{page.next.title}}</span>
+            <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">next postï¼š  <span>{{page.next.title}}</span>
             </a>
         </li>
         {% endif %}
