@@ -37,11 +37,11 @@ For each case, you should output the number of ways mod 1000000007(1e9+7).
 
 1
 
-### 题意：
+### 题意
 
 n个房子在一条线上($n<=2000$)，高度分别为1~n，现在需要将房子这样放置：从最左往右能看到F个房子，从最右往左能看到B个房子，能看到的条件是：两者之间的房子都要低于这个房子。问这样的方案数。 
 
-### AC代码：
+### AC代码
 ``` c++
 #include <stdio.h>
 #include <string.h>
