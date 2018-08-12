@@ -13,7 +13,7 @@ tag: HDU
 
 The inversion number of a given number sequence $a_1$, $a_2$, ..., $a_n$ is the number of pairs ($a_i$, $a_j$) that satisfy i < j and $a_i$ > $a_j$.
 
-For a given sequence of numbers a1, a2, ..., an, if we move the first m >= 0 numbers to the end of the seqence, we will obtain another sequence. There are totally **n** such sequences as the following:
+For a given sequence of numbers $a_1$, $a_2$, ..., $a_n$, if we move the first m >= 0 numbers to the end of the seqence, we will obtain another sequence. There are totally **n** such sequences as the following:
 
 $a_1$, $a_2$, ..., $a_{n-1}$, $a_n$ (where m = 0 - the initial seqence)
 
