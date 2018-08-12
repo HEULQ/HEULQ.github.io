@@ -15,7 +15,7 @@ The inversion number of a given number sequence $a_1$, $a_2$, ..., $a_n$ is the 
 
 For a given sequence of numbers a1, a2, ..., an, if we move the first m >= 0 numbers to the end of the seqence, we will obtain another sequence. There are totally **n** such sequences as the following:
 
-$a_1$, $a_2$, ..., $a_(n-1)$, $a_n$ (where m = 0 - the initial seqence)
+$a_1$, $a_2$, ..., $a_{n-1}$, $a_n$ (where m = 0 - the initial seqence)
 
 $a_2$, $a_3$, ..., $a_n$, $a_1$ (where m = 1)
 
@@ -23,7 +23,7 @@ $a_3$, $a_4$, ..., $a_n$, $a_1$, $a_2$ (where m = 2)
 
 ...
 
-$a_n$, $a_1$, $a_2$, ..., $a_(n-1)$ (where m = n-1)
+$a_n$, $a_1$, $a_2$, ..., $a_{n-1}$ (where m = n-1)
 
 You are asked to write a program to find the minimum inversion number out of the above sequences.
 
