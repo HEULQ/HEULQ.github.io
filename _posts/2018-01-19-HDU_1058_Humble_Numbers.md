@@ -1,6 +1,6 @@
 ---
 layout: post
-title: HDU 1058 Humble Numbers
+title: HDU 1058 Humble Numbers（暴力）
 date: 2018-01-19 
 tag: HDU
 ---
