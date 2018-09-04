@@ -1,6 +1,6 @@
 ---
 layout: post
-title: HDU 4372 Count the buildings
+title: HDU 4372 Count the buildings（第一类斯特林数）
 date: 2017-08-23 
 tag: HDU
 ---
