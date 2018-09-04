@@ -7,7 +7,7 @@ tag: HDU
 
 题目链接：[HDU 1394 Minimum Inversion Number](http://acm.hdu.edu.cn/showproblem.php?pid=1394)
 
-         [技巧解答](https://blog.csdn.net/stay_accept/article/details/47343371)
+巧解参考：[博客](https://blog.csdn.net/stay_accept/article/details/47343371)
 
 -------------------
 ### 题面
