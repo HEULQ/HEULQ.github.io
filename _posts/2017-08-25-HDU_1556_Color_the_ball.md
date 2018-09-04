@@ -1,6 +1,6 @@
 ---
 layout: post
-title: HDU 1556 Color the ball
+title: HDU 1556 Color the ball（线段树）
 date: 2017-08-25 
 tag: HDU
 ---
