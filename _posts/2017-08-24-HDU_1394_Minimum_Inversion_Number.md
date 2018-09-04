@@ -1,11 +1,12 @@
 ---
 layout: post
-title: HDU 1394 Minimum Inversion Number
+title: HDU 1394 Minimum Inversion Number（巧解）
 date: 2017-08-24 
 tag: HDU
 ---
 
 题目链接：[HDU 1394 Minimum Inversion Number](http://acm.hdu.edu.cn/showproblem.php?pid=1394)
+         [技巧解答](https://blog.csdn.net/stay_accept/article/details/47343371)
 
 -------------------
 ### 题面
