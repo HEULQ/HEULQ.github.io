@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: HDU 1238 Substrings
+title: HDU 1238 Substrings(KMP)
 date: 2018-09-11 
 tag: HDU
 ---
