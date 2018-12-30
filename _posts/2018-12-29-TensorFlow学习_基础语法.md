@@ -100,6 +100,19 @@ with tf.Session() as sess:
     # 在运行过程中feed占位符b的值
     e_out = sess.run(e, feed_dict={b: np.arange(0, 10)[:, np.newaxis]})
     print('e is', e_out)
-    print('e is {}'.format(e_out))
 ```
 
+输出结果如下：
+
+```python
+e is [[ 8.]
+ [12.]
+ [16.]
+ [20.]
+ [24.]
+ [28.]
+ [32.]
+ [36.]
+ [40.]
+ [44.]]
+```
