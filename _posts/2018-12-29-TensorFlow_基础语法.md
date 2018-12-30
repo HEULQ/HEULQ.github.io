@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 基础语法
+title: TensorFlow_基础语法
 date: 2018-12-29 
 tag: TensorFlow学习
 ---
