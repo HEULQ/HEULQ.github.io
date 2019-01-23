@@ -49,7 +49,7 @@ blog_button:
 # Navigation buttons in the front page.s
 nav:
     - {title: Article, description: Article, url: '/archive'}   
-    - {title: Tag, description: Tags, url: '/tags'}      
+    - {title: Tag, description: Tag, url: '/tags'}      
     - {title: About me, description: About me, url: '/about'}      
     
 
