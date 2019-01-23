@@ -43,7 +43,8 @@ cover_color: clear
 
 # The blog button should not be removed.
 blog_button:
-    title: Blog, description: Blog
+    title: Blog
+    description: Blog
 
 # Navigation buttons in the front page.s
 nav:
